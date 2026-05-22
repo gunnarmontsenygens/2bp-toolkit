@@ -28,6 +28,7 @@ function params = params_2bp()
     % Functions
     %-------------------------------
     params.fun.eom = @eom_2bp;
+    params.fun.integrate = @integrate_2bp;
 
     %-------------------------------
     % ODE options
